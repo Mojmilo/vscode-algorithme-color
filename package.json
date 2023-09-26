@@ -1,0 +1,25 @@
+{
+  "name": "algorithme",
+  "displayName": "algorithme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "algo",
+      "aliases": ["algo", "algo"],
+      "extensions": ["algo"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "algo",
+      "scopeName": "algo",
+      "path": "./syntaxes/algo.tmLanguage.json"
+    }]
+  }
+}
