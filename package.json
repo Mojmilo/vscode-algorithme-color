@@ -1,7 +1,7 @@
 {
-  "name": "algorithme",
-  "displayName": "algorithme",
-  "description": "",
+  "name": "le-french-language",
+  "displayName": "Le French Language",
+  "description": "Language support for french pseudo-code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
@@ -11,15 +11,15 @@
   ],
   "contributes": {
     "languages": [{
-      "id": "algo",
-      "aliases": ["algo", "algo"],
-      "extensions": ["algo"],
+      "id": "txt",
+      "aliases": ["txt", "txt"],
+      "extensions": ["txt"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
-      "language": "algo",
-      "scopeName": "algo",
-      "path": "./syntaxes/algo.tmLanguage.json"
+      "language": "plaintext",
+      "scopeName": "txt",
+      "path": "./syntaxes/le-french.tmLanguage.json"
     }]
   }
 }

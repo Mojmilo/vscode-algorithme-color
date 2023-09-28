@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "algo",
+	"name": "txt",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -25,15 +25,15 @@
 		"keywords": {
 			"patterns": [
 				{
-					"name": "keyword.control.algo",
+					"name": "keyword.control.txt",
 					"match": "\\b(Algorithme|Fonction|Procédure|Type|Début|Fin|Lexique|Local|Si|Sinon|FinSi|Alors|Pour|de|à|Faire|FinPour|TantQue|FinTantQue|Répéter|Jusqu'à|Selon|Cas|FinSelon|Retourner)\\b|(d')"
 				},
 				{
-					"name": "keyword.operator.algo",
+					"name": "keyword.operator.txt",
 					"match": "\\b(et|ou|E|S|<-|=|<>|<|>|<=|>=|\\+|-|\\*|/|mod|non|div|\\^)\\b"
 				},
 				{
-					"name": "keyword.other.algo",
+					"name": "keyword.other.txt",
 					"match": "\\b(vrai|faux)\\b"
 				},
 				{
@@ -43,32 +43,32 @@
 			]
 		},
 		"strings": {
-			"name": "string.quoted.double.algo",
+			"name": "string.quoted.double.txt",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.algo",
+					"name": "constant.character.escape.txt",
 					"match": "\\\\."
 				}
 			]
 		},
 		"comments": {
-			"name": "comment.line.algo",
+			"name": "comment.line.txt",
 			"match": "//.*$"
 		},
 		"numbers": {
-			"name": "constant.numeric.algo",
+			"name": "constant.numeric.txt",
 			"match": "\\b[0-9]+\\b"
 		},
 		"entities": {
-			"name": "entity.name.function.algo",
+			"name": "entity.name.function.txt",
 			"match": "\\b[A-Za-z][A-Za-z0-9_]*\\b(?=\\()"
 		},
 		"variables": {
-			"name": "variable.name.algo",
+			"name": "variable.name.txt",
 			"match": "\\b[A-Za-z][A-Za-z0-9_]*\\b"
 		}
 	},
-	"scopeName": "algo"
+	"scopeName": "txt"
 }
