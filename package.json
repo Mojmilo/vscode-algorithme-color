@@ -2,7 +2,7 @@
   "name": "le-french-language",
   "displayName": "Le French Language",
   "description": "Language support for french pseudo-code",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -10,16 +10,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "txt",
-      "aliases": ["txt", "txt"],
-      "extensions": ["txt"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "plaintext",
-      "scopeName": "txt",
-      "path": "./syntaxes/le-french.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "txt",
+        "aliases": [
+          "txt",
+          "txt"
+        ],
+        "extensions": [
+          "txt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "plaintext",
+        "scopeName": "txt",
+        "path": "./syntaxes/le-french.tmLanguage.json"
+      }
+    ]
   }
 }
