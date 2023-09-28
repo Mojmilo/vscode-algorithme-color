@@ -2,7 +2,7 @@
   "name": "le-french-language",
   "displayName": "Le French Language",
   "description": "Language support for french pseudo-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Mojmilo/vscode-algorithme-color/"
