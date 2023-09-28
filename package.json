@@ -8,6 +8,7 @@
     "url": "https://github.com/Mojmilo/vscode-algorithme-color/"
   },
   "icon": "icon.png",
+  "publisher": "MVZLT",
   "engines": {
     "vscode": "^1.82.0"
   },
